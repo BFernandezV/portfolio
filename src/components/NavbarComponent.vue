@@ -6,21 +6,11 @@
   import IconWSP from './icons/IconWSP.vue'
   import IconMoon from './icons/IconMoon.vue'
   import { useDark, useToggle } from '@vueuse/core'
-  import IconMiniRow from './icons/IconMiniRow.vue'
   import IconLinkedin from './icons/IconLinkedin.vue'
   import { useCurrentTime } from '@/composables/useCurrentTime'
 
-  const navItems = [
-    { name: 'Home', position: 0 },
-    { name: 'About', position: 1 },
-    { name: 'Projects', position: 2 },
-    { name: 'Contact', position: 3 },
-  ]
-
   const { currentTime } = useCurrentTime()
   const formattedTime = computed(() => formatDate(currentTime.value, 'MMMM d HH:mm:ss'))
-
-  const position = ref(0)
 
   const { locale, t } = useI18n()
 
@@ -40,10 +30,6 @@
   const currentLanguage = computed(() => {
     return locale.value === 'en' ? 'En' : 'Es'
   })
-
-  const updatePosition = (newPosition: number) => {
-    position.value = newPosition < 0 ? navItems.length - 1 : newPosition % navItems.length
-  }
 
   const changeLocale = () => {
     locale.value = locale.value === 'en' ? 'es' : 'en'
@@ -77,36 +63,9 @@
 
       <div class="relative z-10 flex h-full w-2/5 items-center justify-center">
         <div
-          class="d e z-1 flex h-full w-[50px] items-center justify-center bg-gray-950 dark:bg-gray-700"
-          @click="updatePosition(position - 1)"
+          class="font-ds-digital mx-5 flex h-3/4 grow items-center justify-center rounded-sm border bg-black text-lg text-gray-950 text-green-400 md:w-[200px] md:text-2xl dark:bg-gray-800"
         >
-          <button
-            type="button"
-            class="cursor-pointer rounded-full p-2 text-sm hover:opacity-80 active:opacity-70 dark:text-gray-950"
-          >
-            <IconMiniRow class="w-[10px] cursor-pointer dark:text-white" />
-          </button>
-        </div>
-
-        <Transition name="slide-left" mode="out-in">
-          <span
-            :key="navItems[position].name"
-            class="font-at-amiga text-center text-lg md:w-[200px] md:text-4xl dark:text-gray-950 dark:text-white"
-          >
-            {{ navItems[position].name }}
-          </span>
-        </Transition>
-
-        <div
-          class="z-1 flex h-full w-[50px] items-center justify-center bg-gray-950 dark:bg-gray-700 dark:text-gray-950"
-          @click="updatePosition(position + 1)"
-        >
-          <button
-            type="button"
-            class="cursor-pointer rounded-full p-2 text-sm hover:opacity-80 active:opacity-70 dark:text-gray-950"
-          >
-            <IconMiniRow class="w-[10px] rotate-180 cursor-pointer dark:text-white" />
-          </button>
+          <span class="blinking-message">{{ t('common.available') }}</span>
         </div>
       </div>
 
@@ -177,5 +136,33 @@
     height: 100%;
     clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
     pointer-events: none;
+  }
+
+  .blinking-message {
+    animation: blink 2s infinite;
+    text-shadow:
+      0 0 2px #fff,
+      0 0 10px #fff,
+      0 0 100px #fff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    0% {
+      opacity: 0.5;
+      text-shadow:
+        0 0 2px #fff,
+        0 0 4px #05df72;
+    }
+
+    100% {
+      opacity: 1;
+      text-shadow:
+        0 0 6px #fff,
+        0 0 12px #05df72,
+        0 0 18px #05df72;
+    }
   }
 </style>

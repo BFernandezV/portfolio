@@ -6,3 +6,10 @@
   font-weight: 400;
   src: url('../fonts/AtAmiga-Regular.otf') format('opentype');
 }
+
+@font-face {
+  font-family: 'ds-Digital';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/ds-digital.TTF') format('truetype');
+}
