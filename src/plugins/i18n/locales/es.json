@@ -1,0 +1,57 @@
+{
+  "common": {
+    "name": "Benjamín Fernández",
+    "role": "Ingeniero de Software",
+    "quote": "Soy un ingeniero de software con pasión por crear soluciones innovadoras que mejoren la experiencia del usuario y optimicen los procesos. Me destaco en entornos colaborativos y siempre estoy dispuesto a aprender nuevas tecnologías.",
+    "description": "Descripción",
+    "available": "Disponible para trabajar",
+    "contact": "Contacto",
+    "email": "Correo electrónico",
+    "notAvailable": "No disponible para trabajar",
+    "projects": "Proyectos",
+    "go": "Ir a"
+  },
+  "navbar": {
+    "goodMorning": "Buenos días",
+    "goodAfternoon": "Buenas tardes",
+    "goodEvening": "Buenas noches"
+  },
+  "eskuad": {
+    "position": "Desarrollador Full Stack",
+    "description": "Eskuad es una plataforma de software diseñada para ayudar a las empresas a gestionar sus operaciones de campo de manera más eficiente.",
+    "company": "Eskuad",
+    "startDate": "Septiembre 2022",
+    "endDate": "Mayo 2025",
+    "descriptionPoint1": "Desarrollo y mantenimiento de funcionalidades en la plataforma web de Eskuad, utilizando Vue.js, Node.js y MongoDB. Entre estas, destaca la implementación de una interfaz interactiva similar a Excel para la generación de reportes con exportación a XLSX, así como el desarrollo de herramientas avanzadas para la creación y gestión de formularios.",
+    "descriptionPoint2": "Optimización de procesos y mejora del rendimiento de la plataforma mediante la refactorización de código y la identificación de cuellos de botella.",
+    "descriptionPoint3": "Participación en el proceso de selección de talento, colaborando en la realización de entrevistas técnicas y en la evaluación de candidatos para roles de desarrollo."
+  },
+  "dosier": {
+    "position": "Desarrollador Full Stack | Diseñador UI/UX",
+    "description": "Dosier es una plataforma web que permite a los usuarios crear, gestionar y compartir documentos digitales.",
+    "company": "IngenieríaSD",
+    "startDate": "Octubre 2023",
+    "endDate": "Junio 2024",
+    "descriptionPoint1": "Desarrollo de una plataforma web para la gestión documental en municipalidades, optimizando la administración, trazabilidad y control de documentos mediante el uso de Vue.js, Node.js y Sequelize.",
+    "descriptionPoint2": "Implementación de funcionalidades clave como firma electrónica, asignación de tareas para aprobación, derivación de documentos, adjunción de anexos y adición de comentarios.",
+    "descriptionPoint3": "Colaboración con el equipo de diseño para la creación de wireframes, prototipos y diseños de alta fidelidad utilizando Figma."
+  },
+  "buses": {
+    "position": "Desarrollador Full Stack | Diseñador UI/UX",
+    "description": "Buses es una plataforma web diseñada para gestionar y hacer seguimiento de los horarios de una línea de buses que opera en Concepción.",
+    "company": "IngenieríaSD",
+    "startDate": "Julio 2024",
+    "endDate": "Diciembre 2024",
+    "descriptionPoint1": "Desarrollo de una plataforma web para la optimización y gestión centralizada de horarios de una línea de buses, utilizando React y Django.",
+    "descriptionPoint2": "Diseño e implementación de una interfaz intuitiva para la visualización y administración de horarios, permitiendo la generación de nuevos cronogramas mensuales.",
+    "descriptionPoint3": "Colaboración con el equipo de diseño para la creación de wireframes, prototipos y diseños de alta fidelidad utilizando Figma."
+  },
+  "udec": {
+    "position": "Desarrollador Full Stack | Diseñador UI/UX",
+    "description": "OfiVirtualfi es una plataforma web diseñada para optimizar la funcionalidad de la Secretaría Académica de la Facultad de Ingeniería.",
+    "company": "Universidad de Concepción",
+    "startDate": "Marzo 2023",
+    "endDate": "Diciembre 2023",
+    "descriptionPoint1": "Desarrollo de una plataforma web para optimizar las funcionalidades de la Secretaría Académica de la Facultad de Ingeniería, incorporando herramientas clave como la gestión eficiente de solicitudes estudiantiles, la visualización de horarios y anuncios, así como el seguimiento del estado de solicitudes y la consulta de preguntas frecuentes."
+  }
+}

@@ -1,0 +1,6 @@
+@import './fonts.css';
+@import './variables.css';
+@import './base.css';
+@import 'tailwindcss';
+@import 'vue3-carousel/carousel.css';
+/* @import 'vue-final-modal/style.css'; */

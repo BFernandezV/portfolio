@@ -1,0 +1,57 @@
+{
+  "common": {
+    "name": "Benjamín Fernández",
+    "role": "Software Engineer",
+    "quote": "I am a software engineer with a passion for creating innovative solutions that enhance user experiences and streamline processes. I thrive in collaborative environments and am always eager to learn new technologies.",
+    "description": "Description",
+    "available": "Available for work",
+    "contact": "Contact",
+    "email": "Email",
+    "notAvailable": "Not available for work",
+    "projects": "Projects",
+    "go": "Go to"
+  },
+  "navbar": {
+    "goodMorning": "Good morning",
+    "goodAfternoon": "Good afternoon",
+    "goodEvening": "Good evening"
+  },
+  "eskuad": {
+    "position": "Full Stack Developer",
+    "description": "Eskuad is a software platform designed to help businesses manage their field operations more efficiently.",
+    "company": "Eskuad",
+    "startDate": "September 2022",
+    "endDate": "May 2025",
+    "descriptionPoint1": "Developed and maintained features on Eskuad’s web platform using Vue.js, Node.js, and MongoDB. Notably implemented an Excel-like interactive interface for report generation with XLSX export and advanced tools for form creation and management.",
+    "descriptionPoint2": "Optimized processes and improved platform performance through code refactoring and identification of bottle-necks.",
+    "descriptionPoint3": "Participated in the recruitment process by conducting technical interviews and evaluating candidates for development roles."
+  },
+  "dosier": {
+    "position": "Full Stack Developer | UI/UX Designer",
+    "description": "Dosier is a web platform that allows users to create, manage, and share digital documents.",
+    "company": "IngenieríaSD",
+    "startDate": "October 2023",
+    "endDate": "June 2024",
+    "descriptionPoint1": "Developed a web platform for document management in municipalities, enhancing administration, traceability, and control of documents using Vue.js, Node.js, and Sequelize.",
+    "descriptionPoint2": "Implemented key features such as digital signatures, task assignment for approval, document forwarding, file attachments, and comment threads.",
+    "descriptionPoint3": "Collaborated with the design team to create wireframes, prototypes, and high-fidelity designs using Figma."
+  },
+  "buses": {
+    "position": "Full Stack Developer | UI/UX Designer",
+    "description": "Buses is a web platform designed to manage and track the schedules of a bus line operating in Concepción.",
+    "company": "IngenieríaSD",
+    "startDate": "July 2024",
+    "endDate": "December 2024",
+    "descriptionPoint1": "Developed a web platform for centralized scheduling and optimization of a bus line’s timetable using React and Django.",
+    "descriptionPoint2": "Designed and implemented an intuitive interface for schedule management, allowing the generation of new monthly schedules.",
+    "descriptionPoint3": "Collaborated with the design team to create wireframes, prototypes, and high-fidelity designs using Figma."
+  },
+  "udec": {
+    "position": "Full Stack Developer | UI/UX Designer",
+    "description": "OfiVirtualfi is a web platform designed to optimize the functionality of the Faculty of Engineering’s Academic Secretariat.",
+    "company": "Universidad de Concepción",
+    "startDate": "March 2023",
+    "endDate": "December 2023",
+    "descriptionPoint1": "Developed a web platform to optimize the functionality of the Faculty of Engineering’s Academic Secretariat. Integrated key tools including student request management, schedule and announcement visualization, request status tracking, and FAQ consultations."
+  }
+}
