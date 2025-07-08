@@ -164,7 +164,14 @@
     },
   ])
 
-  const carouselConfig = {
+  const carouselConfig: {
+    snapAlign: 'center' | 'start' | 'end' | 'center-even' | 'center-odd'
+    itemsToShow: number
+    gap: number
+    wrapAround: boolean
+    breakpointMode: 'viewport'
+    breakpoints?: Record<number, { itemsToShow: number }>
+  } = {
     itemsToShow: 1,
     gap: 5,
     wrapAround: true,

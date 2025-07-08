@@ -11,11 +11,28 @@
 
   const { t } = useI18n()
 
-  const workExperience = toRaw(props.selectedWorkExperience)
+  const workExperience = toRaw(props.selectedWorkExperience) as unknown as WorkExperience | null
 
   const emit = defineEmits<{
     (e: 'confirm'): void
   }>()
+
+  // Add a default carousel configuration object
+  const carouselConfig: {
+    wrapAround: boolean
+    mouseDrag: boolean
+    touchDrag: boolean
+    snapAlign: 'center' | 'start' | 'end' | 'center-even' | 'center-odd'
+  } = {
+    wrapAround: true,
+    mouseDrag: true,
+    touchDrag: true,
+    snapAlign: 'center',
+  }
+
+  // Add currentSlide for v-model binding with Carousel
+  import { ref } from 'vue'
+  const currentSlide = ref(0)
 
   const goToPage = () => {
     if (workExperience?.url) {
