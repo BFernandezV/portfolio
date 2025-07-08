@@ -20,6 +20,9 @@
   import Buses1 from '@/assets/images/buses1.webp'
   import Buses2 from '@/assets/images/buses2.webp'
   import Buses3 from '@/assets/images/buses3.webp'
+  import Pokedex1 from '@/assets/images/pokedex1.webp'
+  import Pokedex2 from '@/assets/images/pokedex2.webp'
+  import Pokedex3 from '@/assets/images/pokedex3.webp'
   import IconMiniRow from '@/components/icons/IconMiniRow.vue'
   import WorkExperiencieComponent from '@/components/WorkExperiencieComponent.vue'
   import WorkExperienceDetailsComponent from '@/components/WorkExperienceDetailsComponent.vue'
@@ -161,6 +164,26 @@
         t('buses.descriptionPoint2'),
         t('buses.descriptionPoint3'),
       ],
+    },
+    {
+      id: 5,
+      position: t('pokedex.position'),
+      description: t('pokedex.description'),
+      imagesSrc: [Pokedex1, Pokedex2, Pokedex3],
+      company: t('pokedex.company'),
+      startDate: t('pokedex.startDate'),
+      endDate: t('pokedex.endDate'),
+      technologies: [
+        'Vue.js',
+        'Vuetify',
+        'Git',
+        'GitHub',
+        'Tailwind CSS',
+        'Tanstack Query',
+        'Pinia',
+      ],
+      url: 'https://global66-test-code.vercel.app/welcome',
+      descriptionPoints: [t('pokedex.descriptionPoint1')],
     },
   ])
 

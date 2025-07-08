@@ -53,5 +53,13 @@
     "startDate": "March 2023",
     "endDate": "December 2023",
     "descriptionPoint1": "Developed a web platform to optimize the functionality of the Faculty of Engineering’s Academic Secretariat. Integrated key tools including student request management, schedule and announcement visualization, request status tracking, and FAQ consultations."
+  },
+  "pokedex": {
+    "position": "Full Stack Developer",
+    "description": "Pokedex is a web application that allows users to explore and manage Pokémon data.",
+    "company": "Personal Project",
+    "startDate": "June 2024",
+    "endDate": "June 2024",
+    "descriptionPoint1": "Developed a web application using Vue and Node.js to provide an interactive platform for Pokémon enthusiasts to view and manage Pokémon data."
   }
 }

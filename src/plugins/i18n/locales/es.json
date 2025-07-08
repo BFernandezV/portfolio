@@ -53,5 +53,13 @@
     "startDate": "Marzo 2023",
     "endDate": "Diciembre 2023",
     "descriptionPoint1": "Desarrollo de una plataforma web para optimizar las funcionalidades de la Secretaría Académica de la Facultad de Ingeniería, incorporando herramientas clave como la gestión eficiente de solicitudes estudiantiles, la visualización de horarios y anuncios, así como el seguimiento del estado de solicitudes y la consulta de preguntas frecuentes."
+  },
+  "pokedex": {
+    "position": "Desarrollador Full Stack",
+    "description": "Pokedex es una aplicación web que permite a los usuarios explorar datos de Pokémon.",
+    "company": "Personal Project",
+    "startDate": "Junio 2024",
+    "endDate": "Junio 2024",
+    "descriptionPoint1": "Desarrollo de una aplicación web utilizando Vue y Node.js para proporcionar una plataforma interactiva donde los entusiastas de Pokémon puedan ver y gestionar datos de Pokémon."
   }
 }
