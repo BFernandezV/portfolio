@@ -65,7 +65,7 @@
         <div
           class="font-ds-digital mx-5 flex h-3/4 grow items-center justify-center rounded-sm border bg-black text-lg text-gray-950 text-green-400 md:w-[200px] md:text-2xl dark:bg-gray-800"
         >
-          <span class="blinking-message">{{ t('common.available') }}</span>
+          <span class="blinking-message text-center">{{ t('common.available') }}</span>
         </div>
       </div>
 
