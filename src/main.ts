@@ -3,6 +3,7 @@ import 'vue-final-modal/style.css'
 import { createApp } from 'vue'
 
 import { createPinia } from 'pinia'
+
 import { createVfm } from 'vue-final-modal'
 
 import i18n from './plugins/i18n'

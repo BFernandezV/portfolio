@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import NavbarComponent from '@/components/NavbarComponent.vue'
   import { ModalsContainer } from 'vue-final-modal'
+  import { SpeedInsights } from '@vercel/speed-insights/next'
 </script>
 
 <template>
@@ -8,5 +9,6 @@
     <NavbarComponent />
     <RouterView />
     <ModalsContainer />
+    <SpeedInsights></SpeedInsights>
   </main>
 </template>
